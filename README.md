@@ -8,4 +8,5 @@ In progress
 
 * Bootstrap
 * Sticky navbar
+* Flex-row-reverse
 
