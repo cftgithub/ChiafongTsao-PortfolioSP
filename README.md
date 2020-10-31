@@ -1,7 +1,7 @@
 # portfolioSP
 
 ## Purpose:
-Single page portfolio.
+Responsive single page portfolio.
 
 ## Status:
 In progress
