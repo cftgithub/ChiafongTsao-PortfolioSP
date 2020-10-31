@@ -5,3 +5,7 @@ h1 {
 .card {
     margin: auto;
 }
+
+img {
+    padding: 20px;
+}
