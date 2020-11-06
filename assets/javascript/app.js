@@ -8,7 +8,7 @@ function greeting() {
     if (hour >= 12 && hour < 18) {
         hour = "Good Afternoon! "
     }
-    if (hour >= 18){
+    if (hour >= 18) {
         hour = "Good Evening! "
     }
     console.log(hour);
