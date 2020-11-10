@@ -9,3 +9,11 @@ h1 {
 img {
     padding: 20px;
 }
+
+.jumbotron {
+    margin-bottom: -25px;
+}
+
+h2 {
+    padding-top: 60px;
+}
