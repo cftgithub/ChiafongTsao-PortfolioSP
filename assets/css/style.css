@@ -17,3 +17,8 @@ img {
 h2 {
     padding-top: 60px;
 }
+
+pre {
+    text-align: center;
+    font-family: monospace;
+}
