@@ -9,6 +9,10 @@ font-family: 'Sail', cursive; */
     text-shadow: 0px 0px 5px #1e68d6, 0px 0px 5px #003585;
 }
 
+.navbar {
+    padding: 0px 16px;
+}
+
 .navbar-nav {
     /* color: white; */
     text-shadow: 0px 0px 2px #1e68d6, 0px 0px 2px #003585;
@@ -42,6 +46,7 @@ pre {
     font-size: medium;
     font-weight: bold;
     color: white;
+    margin-top: 16px;
 }
 
 #target {
