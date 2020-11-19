@@ -30,12 +30,12 @@ function greeting() {
 }
 greeting();
 
-function hireBanner(id){
+function hireBanner(id) {
     var element = document.getElementById(id);
     var textNode = element.childNodes[0];
     var text = textNode.data + textNode.data;
 
-    setInterval(function(){
+    setInterval(function () {
         // text = text[text.length - 1] + text.substring(0, text.length -1);
         text = text.substring(1, text.length) + text[0];
         textNode.data = text;
