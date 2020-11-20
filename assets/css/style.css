@@ -17,11 +17,11 @@ font-family: 'Sail', cursive; */
     /* color: white; */
     text-shadow: 0px 0px 2px #1e68d6, 0px 0px 2px #003585;
 }
-#date {
-    color: #353BBD;
+/* #date { */
+    /* color: #353BBD; */
     /* text-shadow: 0px 0px 1px #1e68d6; */
-    font-family: 'Courgette', cursive;
-}
+    /* font-family: 'Courgette', cursive; */
+/* } */
 
 h1 {
     color: #7D3EBD;
@@ -92,7 +92,6 @@ pre {
 
 .fab.fa-js-square {
     color: #f7df1e;
-    /* background-color: black; */
 }
 
 .fab.fa-git {
@@ -111,7 +110,15 @@ pre {
     color: #6cc24a;
 }
 
-ion-icon {
+.fab.fa-bootstrap {
+    color: #6039a8;
+}
+
+img.iconImg {
+    padding: 8px;
+}
+
+/* ion-icon {
     font-size: 64px;
 }
 
@@ -137,4 +144,4 @@ ion-icon {
 
 #node {
     color: #6cc24a;
-}
+} */
