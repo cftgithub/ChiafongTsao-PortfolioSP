@@ -17,13 +17,20 @@ font-family: 'Sail', cursive; */
     /* color: white; */
     text-shadow: 0px 0px 2px #1e68d6, 0px 0px 2px #003585;
 }
-
-h1 {
-    color: rebeccapurple;
+#date {
+    color: #353BBD;
+    /* text-shadow: 0px 0px 1px #1e68d6; */
     font-family: 'Courgette', cursive;
-
 }
 
+h1 {
+    color: #7D3EBD;
+    font-family: 'Courgette', cursive;
+}
+
+img {
+    margin-bottom: 16px;
+}
 .card {
     margin: auto;
 }
@@ -34,6 +41,7 @@ img {
 
 .jumbotron {
     margin-bottom: -25px;
+    padding: 40px;
 }
 
 h2 {
@@ -45,12 +53,13 @@ pre {
     font-family: monospace;
     font-size: medium;
     font-weight: bold;
-    color: white;
+    /* color: white; */
+    color: #353BBD;
     margin-top: 16px;
 }
 
 #target {
-    background: #0464f5fa;
+    background: #56BD2B;
     transition: 0.2s;
 }
 #target:hover {
@@ -60,4 +69,72 @@ pre {
     to {
         background: red;
     }
+}
+
+/* Icons */
+#icons {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.fab {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.fab.fa-html5 {
+    color: #E34F26;
+}
+
+.fab.fa-css3-alt {
+    color: #003585;
+}
+
+.fab.fa-js-square {
+    color: #f7df1e;
+    /* background-color: black; */
+}
+
+.fab.fa-git {
+    color: #fc6d26;
+}
+
+.fab.fa-linkedin {
+    color: #0077b5;
+}
+
+.fab.fa-react {
+    color: #00d8ff;
+}
+
+.fab.fa-node-js {
+    color: #6cc24a;
+}
+
+ion-icon {
+    font-size: 64px;
+}
+
+#html {
+    color: #E34F26;
+}
+
+#css {
+    color: #003585;
+}
+
+#js {
+    color: #fce00a;
+}
+
+#react {
+    color: #00d8ff;
+}
+
+#linkedin {
+    color: #0077b5;
+}
+
+#node {
+    color: #6cc24a;
 }
