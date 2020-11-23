@@ -3,6 +3,10 @@ font-family: 'Bilbo Swash Caps', cursive;
 font-family: 'Qwigley', cursive;
 font-family: 'Sail', cursive; */
 
+#grad {
+    background-image: radial-gradient(red, yellow, green);
+  }
+
 .navbar-brand {
     font-family: 'Qwigley', cursive;
     font-size: 40px;
@@ -42,6 +46,7 @@ img {
 .jumbotron {
     margin-bottom: -25px;
     padding: 40px;
+    background-image: radial-gradient(red, yellow, green);
 }
 
 h2 {
