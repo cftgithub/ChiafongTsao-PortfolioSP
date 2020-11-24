@@ -1,0 +1,57 @@
+/* -------------------Skill Icons */
+#icons {
+    text-align: center;
+    padding-top: 10px;
+}
+
+img.iconImg {
+    padding: 8px;
+}
+
+.fab {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.fab.fa-html5 {
+    color: #E34F26;
+}
+
+.fab.fa-css3-alt {
+    color: #003585;
+}
+
+.fab.fa-js-square {
+    color: #f7df1e;
+}
+
+.fab.fa-git {
+    color: #fc6d26;
+}
+
+.fab.fa-linkedin {
+    color: #0077b5;
+}
+
+.fab.fa-react {
+    color: #00d8ff;
+}
+
+.fab.fa-node-js {
+    color: #6cc24a;
+}
+
+.fab.fa-bootstrap {
+    color: #6039a8;
+}
+
+/* ------------------------Project/Portfolio Icons */
+#smIcon {
+    font-size: 25px;
+    padding: 5px;
+}
+
+.smIconImg {
+    padding: 5px;
+    margin-bottom: 12px;
+}

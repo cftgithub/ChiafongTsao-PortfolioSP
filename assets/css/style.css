@@ -3,18 +3,7 @@ font-family: 'Bilbo Swash Caps', cursive;
 font-family: 'Qwigley', cursive;
 font-family: 'Sail', cursive; */
 
-#grad {
-    /* background-image: radial-gradient(#b2bed1, #95a9c9, #333436); */
-    background-image: linear-gradient(to bottom right, #212a3d, #a8c5f7);
-}
-
-.jumbotron {
-    margin-bottom: -25px;
-    padding: 40px;
-    /* background-image: radial-gradient(#e9ecf1, #96929c, #36373a); */
-    background-image: radial-gradient(#dbe7fa, #c0d5fa, #031949);
-}
-
+/* ---------------------Navbar */
 .navbar-brand {
     font-family: 'Qwigley', cursive;
     font-size: 40px;
@@ -29,6 +18,17 @@ font-family: 'Sail', cursive; */
     /* color: white; */
     text-shadow: 0px 0px 2px #1e68d6, 0px 0px 2px #003585;
 }
+
+/* -----------------------Jumbotron */
+.jumbotron {
+    margin-bottom: -25px;
+    padding: 40px;
+    /* background-image: radial-gradient(#e9ecf1, #96929c, #36373a); */
+    background-image: radial-gradient(#dbe7fa, #b7cffa, #201733);
+    font-family: 'Courgette', cursive;
+}
+
+
 /* #date { */
     /* color: #353BBD; */
     /* text-shadow: 0px 0px 1px #1e68d6; */
@@ -40,21 +40,11 @@ h1 {
     font-family: 'Courgette', cursive;
 }
 
-img {
-    margin-bottom: 16px;
-}
-.card {
-    margin: auto;
-}
-
-img {
-    padding: 20px;
-}
-
 h2 {
     padding-top: 60px;
 }
 
+/* ----------------------Hire Banner */
 pre {
     text-align: center;
     font-family: monospace;
@@ -78,60 +68,31 @@ pre {
     }
 }
 
-/* -------------------Skill Icons */
-#icons {
-    text-align: center;
-    padding-top: 10px;
-}
-
-img.iconImg {
-    padding: 8px;
-}
-
-.fab {
-    font-size: 50px;
-    padding: 10px;
-}
-
-.fab.fa-html5 {
-    color: #E34F26;
-}
-
-.fab.fa-css3-alt {
-    color: #003585;
-}
-
-.fab.fa-js-square {
-    color: #f7df1e;
-}
-
-.fab.fa-git {
-    color: #fc6d26;
-}
-
-.fab.fa-linkedin {
-    color: #0077b5;
-}
-
-.fab.fa-react {
-    color: #00d8ff;
-}
-
-.fab.fa-node-js {
-    color: #6cc24a;
-}
-
-.fab.fa-bootstrap {
-    color: #6039a8;
-}
-
 /* -------------------Portfolio */
-#smIcon {
-    font-size: 25px;
-    padding: 5px;
+#grad {
+    /* background-image: radial-gradient(#b2bed1, #95a9c9, #333436); */
+    background-image: linear-gradient(to bottom right, #212a3d, #a8c5f7);
 }
 
-.smIconImg {
-    padding: 5px;
-    margin-bottom: 12px;
+/* ---------------------Images */
+img {
+    margin-bottom: 16px;
+    padding: 20px;
 }
+
+.card-img-top {
+    background-color: #393941;
+    /* border: 5px solid #212a3d; */
+}
+
+#cardImg {
+    background-color: #212a3d;
+    border: 5px solid #212a3d;
+}
+
+/* ----------------------Cards */
+.card {
+    background-color: #dbe7fa;
+    border: 2px solid #393941;
+}
+
