@@ -7,7 +7,7 @@ font-family: 'Sail', cursive; */
 .navbar-brand {
     font-family: 'Qwigley', cursive;
     font-size: 40px;
-    text-shadow: 0px 0px 5px #1e68d6, 0px 0px 10px #003585;
+    text-shadow: 0px 0px 10px #1e68d6, 0px 0px 10px #003585;
 }
 
 .navbar {
@@ -25,7 +25,7 @@ font-family: 'Sail', cursive; */
     padding: 40px;
     /* background-image: radial-gradient(#dbe7fa, #b7cffa, #201733); */
     /* background-image: linear-gradient(#a8c5f7, #212a3d); */
-    background-image: linear-gradient(#212a3d, #c1d2f1);
+    background-image: linear-gradient(#1d273b, #c1d2f1);
     /* color: whitesmoke; */
     
     font-family: 'Courgette', cursive;
@@ -33,7 +33,7 @@ font-family: 'Sail', cursive; */
 
 .aboutMe {
     color: #020270;
-    text-shadow: 0px 0px 20px #c1d2f1;
+    text-shadow: 0px 0px 20px #f4f5f7;
     /* color: #e3e3f1;
     text-shadow: 2px 0px 5px #000011; */
 }
