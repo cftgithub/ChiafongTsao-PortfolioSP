@@ -49,9 +49,14 @@ img.iconImg {
 #smIcon {
     font-size: 25px;
     padding: 5px;
+    margin-top: 5px;
 }
 
 .smIconImg {
     padding: 5px;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
+}
+
+.skillIcons {
+    background-color: #ebeef3;
 }
