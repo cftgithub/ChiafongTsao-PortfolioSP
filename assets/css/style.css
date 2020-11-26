@@ -7,7 +7,7 @@ font-family: 'Sail', cursive; */
 .navbar-brand {
     font-family: 'Qwigley', cursive;
     font-size: 40px;
-    text-shadow: 0px 0px 10px #1e68d6, 0px 0px 10px #003585;
+    text-shadow: 0px 0px 10px #1e68d6, 0px 0px 5px #003585;
 }
 
 .navbar {
@@ -33,7 +33,9 @@ font-family: 'Sail', cursive; */
 
 .aboutMe {
     color: #020270;
-    text-shadow: 0px 0px 20px #f4f5f7;
+    background: rgba(229, 233, 241, 0.788);
+    padding: 5px 10px;
+    /* filter: drop-shadow(2px -1px 2px #f4f5f7); */
     /* color: #e3e3f1;
     text-shadow: 2px 0px 5px #000011; */
 }
@@ -65,6 +67,7 @@ pre {
     /* color: white; */
     color: #353BBD;
     margin-top: 1rem;
+    margin-bottom: 0;
 }
 
 #target {
@@ -81,10 +84,19 @@ pre {
 }
 
 /* -------------------Portfolio */
-#grad {
+.projects, .contact {
     background-image: url(../images/bgdSheer.jpg);
+   
+}
+
+.portfolio {
     /* background-image: radial-gradient(#b2bed1, #95a9c9, #333436); */
     /* background-image: linear-gradient(to bottom right, #212a3d, #a8c5f7); */
+    background-image: linear-gradient(#1d273b, #c1d2f1);
+}
+
+.contact {
+    padding-bottom: 10em;
 }
 
 /* ---------------------Images */
@@ -110,5 +122,13 @@ img {
     color: whitesmoke;
 }
 
-
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: red; */
+    color: white;
+    text-align: center;
+ }
 
