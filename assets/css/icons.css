@@ -1,18 +1,4 @@
-/* -------------------Skill Icons */
-#icons {
-    text-align: center;
-    padding-top: 10px;
-}
-
-img.iconImg {
-    padding: 8px;
-}
-
-.fab {
-    font-size: 50px;
-    padding: 10px;
-}
-
+/* --------------fab icon colors */
 .fab.fa-html5 {
     color: #E34F26;
 }
@@ -45,6 +31,21 @@ img.iconImg {
     color: #6039a8;
 }
 
+/* -------------------Home Page Skills Icons */
+#icons {
+    text-align: center;
+    padding-top: 10px;
+}
+
+img.iconImg {
+    padding: 8px;
+}
+
+.fab {
+    font-size: 50px;
+    padding: 10px;
+}
+
 /* ------------------------Project/Portfolio Icons */
 #smIcon {
     font-size: 25px;
@@ -57,11 +58,8 @@ img.iconImg {
     margin-bottom: 10px;
 }
 
+/* ------------------------Footer Icons */
 .iconFoot {
     margin: 0px;
     padding: 10px;
 }
-
-/* .skillIcons {
-    text-shadow: 0px 0px 20px #f4f5f7;
-} */
