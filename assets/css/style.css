@@ -40,6 +40,11 @@ font-family: 'Sail', cursive; */
     text-shadow: 2px 0px 5px #000011; */
 }
 
+.img-thumbnail {
+    border: 5px solid #ecd02cea;
+    background-color: #1d273b;
+}
+
 
 #date {
     color: whitesmoke;
@@ -84,6 +89,16 @@ pre {
 }
 
 /* -------------------Portfolio */
+.sectionPort {
+    color: #eeebf1;
+    font-family: 'Courgette', cursive;
+}
+
+.sectionProj, sectionCont {
+    color: #1d273b;
+    font-family: 'Courgette', cursive;
+}
+
 .projects, .contact {
     background-image: url(../images/bgdSheer.jpg);
    
