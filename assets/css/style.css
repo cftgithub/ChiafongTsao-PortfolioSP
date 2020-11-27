@@ -1,8 +1,3 @@
-/* -------------------Fonts */
-/* font-family: 'Arizonia', cursive; */
-/* font-family: 'Bilbo Swash Caps', cursive; */
-/* font-family: 'Sail', cursive; */
-
 h1, .sectionPort, .sectionProj, .contact {
     font-family: 'Courgette', cursive;
 }
@@ -10,6 +5,11 @@ h1, .sectionPort, .sectionProj, .contact {
 .navbar-brand {
     font-family: 'Qwigley', cursive;
     font-size: 40px;
+}
+
+.aboutMe, #date {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
 }
 
 /* -----------------------------Colors */
@@ -30,8 +30,8 @@ h1 {
 }
 
 .aboutMe {
-    filter: drop-shadow(5px 2px 3px #03030c);
     color: #eeebf1;
+    filter: drop-shadow(2px 2px 5px #03030c);
 }
 
 .sectionPort {
@@ -43,11 +43,11 @@ h1 {
 }
 
 .skillIcons {
-    filter: drop-shadow(0px 0px 5px #f0f0f5);
+    filter: drop-shadow(0px 0px 5px #ebf1ef);
 }
 
 .footer {
-    color: white;
+    color: #eeebf1;
 }
 
 /* -----------------------------Backgrounds */
