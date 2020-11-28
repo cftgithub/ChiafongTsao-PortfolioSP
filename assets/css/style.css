@@ -20,7 +20,7 @@ h1 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-/* -----------------------------Colors */
+/* ------Colors */
 h1 {
     color: #eeebf1;
 }
@@ -58,7 +58,7 @@ h1 {
     color: #eeebf1;
 }
 
-/* -----------------------------Backgrounds */
+/* ------Backgrounds */
 .jumbotron, .portfolio {
     background-image: linear-gradient(#1d273b, #c1d2f1);
 }
@@ -68,7 +68,7 @@ h1 {
    
 }
 
-/* ---------------------Images */
+/* -----Images */
 .img-thumbnail {
     border: 5px solid #fafbfd;
     background-color: #ddeeafce;
@@ -87,7 +87,7 @@ img {
     border: 5px solid #212a3d;
 }
 
-/* ----------------------Hire Banner */
+/* -----Hire Banner */
 pre {
     text-align: center;
     font-family: monospace;
@@ -112,33 +112,45 @@ pre {
     }
 }
 
-/* ---------------------Navbar */
+/* ----Navbar */
 .navbar {
     padding: 0px 16px;
 }
 
-/* -----------------------Home Page */
+/* -----Home Page */
 .jumbotron {
     margin-bottom: -25px;
     padding: 40px;
 }
 
+/* -----Project/Portfolio/Contact Pages*/
 h2 {
-    padding-top: 60px;
+    /* padding-top: 60px; */
+    padding: 30px;
 }
 
-/* -------------------Portfolio */
+.projects, .portfolio {
+    padding-bottom: 50px;
+    margin-bottom: -25px;
+
+}
+
 .contact {
     padding-bottom: 10em;
 }
 
-/* ----------------------Cards */
+.contactInfo {
+    padding: 10px 200px;
+}
+
+/* -----Cards */
 .card {
     background-color: #212a3d;
     border: 2px solid #393941;
     color: whitesmoke;
 }
 
+/* ------Footer */
 .footer {
     position: fixed;
     left: 0;
@@ -147,3 +159,8 @@ h2 {
     text-align: center;
 }
 
+@media only screen and (max-width: 770px){
+    .contactInfo {
+        padding: 10px 60px;
+    }
+}
