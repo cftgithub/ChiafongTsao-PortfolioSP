@@ -42,8 +42,13 @@
     margin: 0px;
 }
 
-.fab, .fas {
+.fab {
     font-size: 50px;
+    padding: 10px;
+}
+
+.fas {
+    font-size: 45px;
     padding: 10px;
 }
 
@@ -51,12 +56,14 @@
 #smIcon {
     font-size: 25px;
     padding: 5px;
-    margin-top: 5px;
+    margin-top: 4px;
+    background-color: #e6ecf5;
 }
 
 .smIconImg {
     padding: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
+    background-color: #e6ecf5;
 }
 
 /* ------------------------Footer Icons */
@@ -77,6 +84,9 @@
 @media only screen and (max-width: 770px){
     .fab {
         font-size: 25px;
+    }
+    .fas {
+        font-size: 22px;
     }
     .iconImg {
         height: 35px;
