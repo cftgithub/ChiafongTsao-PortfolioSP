@@ -60,6 +60,12 @@ img.iconImg {
 
 /* ------------------------Footer Icons */
 .iconFoot {
-    margin: 0px;
+    /* margin: 0px; */
     padding: 10px;
 }
+
+.far.fa-file {
+    font-size: 35px;
+    padding: 15px;
+}
+
