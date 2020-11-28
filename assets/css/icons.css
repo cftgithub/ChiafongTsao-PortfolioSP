@@ -37,7 +37,7 @@
     padding-top: 10px;
 }
 
-img.iconImg {
+.iconImg {
     padding: 8px;
     margin: 0px;
 }
@@ -74,3 +74,16 @@ img.iconImg {
     margin-top: -20px;
 }
 
+@media only screen and (max-width: 770px){
+    .fab {
+        font-size: 25px;
+    }
+    .iconImg {
+        height: 35px;
+        width: 35px;
+        padding: 5px;
+    }
+    .imgIcons {
+        padding-bottom: 10px;
+    }
+}

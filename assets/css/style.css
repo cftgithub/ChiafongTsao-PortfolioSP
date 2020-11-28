@@ -166,6 +166,15 @@ h2 {
     footer {
         font-size: 12px;
     }
+    .jumbotron {
+        padding: 5px;
+    }
+    #date {
+        font-size: 15px;
+    }
+    .welcome {
+        font-size: 25px;
+    }
 }
 
 @media only screen and (max-width: 400px){
