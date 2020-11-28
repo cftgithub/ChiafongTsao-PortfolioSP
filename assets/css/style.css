@@ -164,3 +164,15 @@ h2 {
         padding: 10px 60px;
     }
 }
+
+@media only screen and (max-width: 400px){
+    .contactInfo {
+        padding: 10px 20px;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .contactInfo {
+        padding: 10px 10px;
+    }
+}
