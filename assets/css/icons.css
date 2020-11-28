@@ -39,6 +39,7 @@
 
 img.iconImg {
     padding: 8px;
+    margin: 0px;
 }
 
 .fab {
@@ -60,12 +61,16 @@ img.iconImg {
 
 /* ------------------------Footer Icons */
 .iconFoot {
-    /* margin: 0px; */
-    padding: 10px;
+    margin-bottom: 17px;
+    padding: 2px 15px;
 }
 
 .far.fa-file {
     font-size: 35px;
-    padding: 15px;
+    padding: 2px 15px;
+}
+
+.footercontact {
+    margin-top: -20px;
 }
 
