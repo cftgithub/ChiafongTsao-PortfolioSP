@@ -41,3 +41,11 @@ function hireBanner(id) {
         textNode.data = text;
     }, 200);
 }
+
+const instance = new TypeIt("#typing", {
+    speed: 170,
+    loop: true
+})
+.type("CHECKOUT MY REPO AT GITHUB FOR MORE PROJECTS!", { delay: 1000})
+.delete(45)
+.go();

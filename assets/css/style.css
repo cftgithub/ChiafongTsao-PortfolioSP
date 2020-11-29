@@ -112,6 +112,19 @@ pre {
     }
 }
 
+#projectBanner {
+    background: #56BD2B;
+    transition: 0.2s;
+}
+#projectBanner:hover {
+    animation: change-color 0.2s forwards;
+}
+@keyframes change-color {
+    to {
+        background: red;
+    }
+}
+
 /* ----Navbar */
 .navbar {
     padding: 0px 16px;
