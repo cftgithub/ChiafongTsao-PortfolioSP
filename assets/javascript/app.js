@@ -43,9 +43,9 @@ function hireBanner(id) {
 }
 
 const instance = new TypeIt("#typing", {
-    speed: 170,
+    speed: 100,
     loop: true
 })
-.type("CHECKOUT MY REPO AT GITHUB FOR MORE PROJECTS!", { delay: 1000})
-.delete(45)
+.type("CHECKOUT GITHUB FOR MORE PROJECTS!", { delay: 1500})
+.delete("")
 .go();
