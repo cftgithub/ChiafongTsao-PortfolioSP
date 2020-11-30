@@ -70,8 +70,8 @@ h1 {
 
 /* -----Images */
 .img-thumbnail {
-    border: 5px solid #fafbfd;
-    background-color: #ddeeafce;
+    border: 5px solid #b2b3b6;
+    background-color: #7da76b;
 }
 
 img {
@@ -154,6 +154,10 @@ h2 {
 
 .contactInfo {
     padding: 10px 200px;
+}
+
+h4 {
+    font-weight: bolder;
 }
 
 /* -----Cards */
