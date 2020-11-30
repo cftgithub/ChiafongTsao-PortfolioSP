@@ -73,8 +73,13 @@
 }
 
 .far.fa-file {
-    font-size: 35px;
+    font-size: 40px;
     padding: 2px 15px;
+}
+p.imgTxt {
+    font-size: 12px;
+    margin: -30px;
+    color: #a9c7f8;
 }
 
 .footercontact {
