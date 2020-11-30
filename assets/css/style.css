@@ -112,6 +112,7 @@ pre {
     }
 }
 
+/* Project Banner */
 #projectBanner {
     background: #56BD2B;
     transition: 0.2s;
@@ -123,6 +124,21 @@ pre {
     to {
         background: red;
     }
+}
+
+/* Contact Banner */
+#contactBanner {
+    background: #56BD2B;
+    animation-name: changeContact;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transition: 2s;
+}
+/* #contactBanner:hover {
+    transform: rotate(360deg);
+} */
+@keyframes changeContact {
+     25% {background: red;}
 }
 
 /* ----Navbar */
