@@ -161,7 +161,6 @@ h2 {
 .projects, .portfolio {
     padding-bottom: 50px;
     margin-bottom: -25px;
-
 }
 
 .contact {
@@ -181,6 +180,10 @@ h4 {
     background-color: #212a3d;
     border: 2px solid #393941;
     color: whitesmoke;
+}
+
+.card-text {
+    text-align: center;
 }
 
 /* ------Footer */
