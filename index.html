@@ -171,19 +171,19 @@
                             <i id="smIcon" class="fab fa-css3-alt" data-toggle="tooltip" title="CSS"></i>
                             <i id="smIcon" class="fab fa-bootstrap" data-toggle="tooltip" title="Bootstrap"></i>
                             <p>Easy, entertaining recipe search takes the frustration out of meal preparation and
-                                turn it into an adventure inspired by the concept of roulette!</p>
+                                turn it into an adventure. Inspired by the concept of roulette!</p>
                             <p>What's Cool...</p>
                             <ul>
                                 <li>Users can determine the scope of desired search by entering keywords to narrow the
                                     search criteria
                                     or to broaden the search by leaving the search box empty and returning a complete
                                     random search.</li>
-                                <li>Tasty API returns and displays an image of the receipe with every search.
-                                </li>
-                                <li>Video instruction, ingredients list and written instructions are displayed in modals
-                                    with
-                                    the click of a button to maximize screen space.</li>
-                                <li>Ingredients button displays the Ingredients list and nutritional values.
+                                <li>Tasty API returns a recipe, ingredient list, nutritional value, image and a video
+                                    instruction with every search.</li>
+                                <li>The image of the recipe is displayed after each search, allowing users to determine
+                                    whether to continue searching.</li>
+                                <li>A modal is used to store the contents of video instruction, ingredient list,
+                                    nutritional value and recipe. All can be easily accessed with the click of a button.
                                 </li>
                             </ul>
                             <div class="card-text">
@@ -202,13 +202,13 @@
                             <h5 class="card-title">allyApp</h5>
                             <img class="smIconImg" src="assets/images/smIcon/handlebars.png" data-toggle="tooltip"
                                 title="Handlebars">
+                            <img class="smIconImg" src="assets/images/smIcon/icons8-mysql-logo-25.png"
+                                data-toggle="tooltip" title="MySQL">
                             <img class="smIconImg" src="assets/images/smIcon/icons8-javascript-25.png"
                                 data-toggle="tooltip" title="JavaScript">
                             <img class="smIconImg" src="assets/images/smIcon/icons8-jquery-25.png" data-toggle="tooltip"
                                 title="jQuery">
                             <i id="smIcon" class="fab fa-bootstrap" data-toggle="tooltip" title="Bootstrap"></i>
-                            <img class="smIconImg" src="assets/images/smIcon/icons8-mysql-logo-25.png"
-                                data-toggle="tooltip" title="MySQL">
                             <img class="smIconImg" src="assets/images/smIcon/icons8-nodejs-25.png" data-toggle="tooltip"
                                 title="Node.js">
                             <img class="smIconImg" src="assets/images/smIcon/icons8-heroku-25.png" data-toggle="tooltip"
@@ -266,7 +266,7 @@
                             <ul>
                                 <li>Images and names are stored in JSON format and is easily rendered within a
                                     component.</li>
-                                <li>Image placement shuffle after each click.</li>
+                                <li>Image placement shuffle after each click, increasing the level of challenge.</li>
                                 <li>Message bar informs user of game status after each click; also displays top score
                                     and current score.</li>
                             </ul>
@@ -293,13 +293,14 @@
                             <i id="smIcon" class="fab fa-html5" data-toggle="tooltip" title="HTML5"></i>
                             <i id="smIcon" class="fab fa-bootstrap" data-toggle="tooltip" title="Bootstrap"></i>
                             <i id="smIcon" class="fab fa-css3-alt" data-toggle="tooltip" title="CSS"></i>
-                            <p>Describe what this is!</p>
+                            <p>Fun and interactive game to challenge and improve basic math and memory skills.</p>
                             <p>What's Cool...</p>
                             <ul>
-                                <li>Computer generated random number between 19 to 120</li>
-                                <li>Each jewel will have a different number 1-12 randomly generated</li>
+                                <li>Computer generated random number from 19 to 120 at the beginning of each game.</li>
+                                <li>Four jewels with different randomly generated number as point values for each game.
+                                </li>
                                 <li>Glowing effect on heading with CSS animation</li>
-                                <li>Alert after each game</li>
+                                <li>Alert player of win/loss after each game.</li>
                             </ul>
                             <p>Responsive: Yes</p>
                             <a href="https://cftgithub.github.io/crystalCollector/" target="_blank"
@@ -326,13 +327,15 @@
                             <i id="smIcon" class="fab fa-bootstrap" data-toggle="tooltip" title="Bootstrap"></i>
                             <i id="smIcon" class="fab fa-css3-alt" data-toggle="tooltip" title="CSS"></i>
                             <i id="smIcon" class="fab fa-html5" data-toggle="tooltip" title="HTML5"></i>
-                            <p>Describe what this is!</p>
+                            <p>An entertaining, dynamic webpage powered by GIPHY API.</p>
                             <p>What's Cool...</p>
                             <ul>
-                                <li>Random selection</li>
-                                <li>Choose rating</li>
-                                <li>New images appended to the beginning</li>
-                                <li>Click image to animate image/click for still image</li>
+                                <li>Clicking on a keyword button returns 5 "still" images from GIPHY API. Additional
+                                    keyword buttons can be added by user.</li>
+                                <li>Image property alternates between "still" and "animate" when clicked.</li>
+                                <li>Optional rating filter allows users to specify the highest rating (G, PG, PG-13, R)
+                                    of images to be displayed.</li>
+                                <li>Title and rating of each gif is displayed below the image.</li>
                             </ul>
                             <p>Responsive: Yes</p>
                             <a href="https://cftgithub.github.io/GifTastic/" target="_blank" class="card-link">Demo</a>
@@ -356,12 +359,19 @@
                             <i id="smIcon" class="fab fa-html5" data-toggle="tooltip" title="HTML5"></i>
                             <i id="smIcon" class="fab fa-bootstrap" data-toggle="tooltip" title="Bootstrap"></i>
                             <i id="smIcon" class="fab fa-css3-alt" data-toggle="tooltip" title="CSS"></i>
-                            <p>Hangman game on food related words.</p>
+                            <p>Test your analytical skills to see how many dishes you can guess correctly.</p>
                             <p>What's Cool...</p>
                             <ul>
-                                <li></li>
+                                <li>An array stores a list of words to be guessed. A random word from an array is
+                                    selected at the beginning of
+                                    each game and removed from the array until all words fom the array are exhausted.
+                                </li>
+                                <li>Player is alerted whether the letter guessed is correct, incorrect, not a letter, or
+                                    has already been guessed.</li>
+                                <li>The image changes at the end of each round. A win replaces the current image with an
+                                    image which reflects the word correctly guessed. Default image is displayed after a
+                                    lost round.</li>
                             </ul>
-                            <p>Responsive: Yes</p>
                             <a href="https://cftgithub.github.io/Word-Guess-Game/" target="_blank"
                                 class="card-link">Demo</a>
                             <a href="https://github.com/cftgithub/Word-Guess-Game" target="_blank"
