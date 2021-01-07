@@ -67,8 +67,17 @@ h1 {
 /* ------Images------ */
 .img-thumbnail {
     border: 5px solid #ced7f1;
-    background-color: #2d3a53;
-    box-shadow: 0px 0px 10px #0e182b, 0px 0px 10px #003585, 0px 0px 20px #aabad6, 0px 0px 30px #c1d2f1;
+    background: #2d3a53;
+    box-shadow: 0px 0px 10px #0e182b, 0px 0px 20px #003585, 0px 0px 20px #aabad6, 0px 0px 30px #c1d2f1;
+    transition: 0.2s;
+}
+.img-thumbnail:hover {
+    animation: change-shadow 0.2s forwards;
+}
+@keyframes change-shadow {
+    to {
+        box-shadow: 0px 0px 10px #710480, 0px 0px 50px #eb4deb, 0px 0px 30px #e782da, 0px 0px 40px #efc1f1;
+    }
 }
 
 img {
